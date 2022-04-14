@@ -2,7 +2,11 @@
 layout: main-page
 ---
 <div class="main-page__img-box">
-    <img class="main-page__img" src="{{root}}img/main-logo-300x300-2.png" alt="Logo" width="300" height="300">
+    <img class="main-page__img"
+        src="{{root}}img/main-logo-300x300-2.png"
+        width="300"
+        height="300"
+        alt="Logo">
 </div>
 
 <div class="main-page__title-box">
@@ -13,4 +17,9 @@ layout: main-page
             The Official Site
         </span>
     </h1>
+</div>
+
+<div class="main-page__social-box">
+    {{> social
+        mod = 'main-page__social'}}
 </div>
