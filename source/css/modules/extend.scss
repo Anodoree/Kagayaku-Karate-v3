@@ -8,24 +8,3 @@
     overflow: hidden;
     clip: rect(0 0 0 0);
 }
-
-%custom-scroll {
-    &::-webkit-scrollbar {
-        z-index: 9;
-        width: 10px;
-        height: 10px;
-        border: none;
-    }
-
-    &::-webkit-scrollbar-track {
-        background-color: $bg-color;
-    }
-
-    &::-webkit-scrollbar-thumb {
-        background-color: #bebfd0;
-        background-clip: padding-box;
-    }
-
-    scrollbar-width: thin;
-    scrollbar-color: #bebfd0;
-}
