@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    padding: 15px 15px 60px;
+    padding: 15px;
 }
 
 .main-page__img-box {
@@ -49,4 +49,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
+}
+
+.main-page__social-box {
+    margin-bottom: 3vh;
 }
