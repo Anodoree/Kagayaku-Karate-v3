@@ -1,0 +1,35 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    color: $text-color-invert;
+}
+
+.main-page__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 15px;
+}
+
+.main-page__img-box {
+    margin-bottom: 1rem;
+}
+
+.main-page__title-box {
+    margin-bottom: 1rem;
+}
+
+.main-page__title {
+    margin-bottom: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.main-page__title-desc {
+    display: block;
+    font-size: 0.5em;
+}
