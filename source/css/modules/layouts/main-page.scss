@@ -12,24 +12,41 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    padding: 15px;
+    padding: 15px 15px 60px;
 }
 
 .main-page__img-box {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5vh;
+}
+
+.main-page__img {
+    width: 200px;
+    height: 200px;
+
+    @media (min-width: $tablets) {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 .main-page__title-box {
-    margin-bottom: 1rem;
+    margin-bottom: 6vh;
 }
 
 .main-page__title {
     margin-bottom: 0;
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 1.1;
     text-transform: uppercase;
+
+    @media (min-width: $tablets) {
+        font-size: 40px;
+    }
 }
 
 .main-page__title-desc {
     display: block;
-    font-size: 0.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
